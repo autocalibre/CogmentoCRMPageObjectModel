@@ -1,0 +1,9 @@
+22:30:55.969 [main] DEBUG com.cogmento.qa.base.TestBase - Successfully clicked new contact button 
+22:30:58.725 [main] DEBUG com.cogmento.qa.base.TestBase - Successfully entered firstname, lastname, company name and clicked on save button
+22:30:58.725 [main] INFO  com.cogmento.qa.base.TestBase - **************Ending createNewContactTest TestCase**************
+22:30:58.726 [main] INFO  com.cogmento.qa.base.TestBase - *****************END OF CONTACTSPAGE TESTCASES*****************
+22:31:00.752 [main] INFO  com.cogmento.qa.base.TestBase - Browser is closed
+22:31:00.754 [main] INFO  com.cogmento.qa.base.TestBase - *****************CONTACTSPAGE TESTCASES*****************
+22:31:09.665 [main] INFO  com.cogmento.qa.base.TestBase - Successfully initialized the browser and navigated to the URL
+22:31:16.789 [main] DEBUG com.cogmento.qa.base.TestBase - Successfully clicked on the Login button and navigated to login page
+22:31:17.485 [main] DEBUG com.cogmento.qa.base.TestBase - Successfully entered username, password, clicked on submit and navigated to HomePage

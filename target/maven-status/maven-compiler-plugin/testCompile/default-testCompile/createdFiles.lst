@@ -1,0 +1,4 @@
+com\cogmento\qa\testcases\LandingPageTest.class
+com\cogmento\qa\testcases\ContactsPageTest.class
+com\cogmento\qa\testcases\HomePageTest.class
+com\cogmento\qa\testcases\LoginPageTest.class

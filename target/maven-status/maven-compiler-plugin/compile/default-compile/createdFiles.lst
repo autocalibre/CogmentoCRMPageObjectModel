@@ -1,0 +1,13 @@
+com\cogmento\qa\ExtentReportListener\ExtentReporterNG.class
+com\cogmento\qa\pages\ForgotPasswordPage.class
+com\cogmento\qa\pages\LoginPage.class
+com\cogmento\qa\util\webEventListener.class
+com\cogmento\qa\base\TestBase.class
+com\cogmento\qa\pages\DealsPage.class
+com\cogmento\qa\pages\SignupPage.class
+com\cogmento\qa\pages\TasksPage.class
+com\cogmento\qa\pages\ClassicCRMPage.class
+com\cogmento\qa\pages\HomePage.class
+com\cogmento\qa\pages\LandingPage.class
+com\cogmento\qa\util\TestUtil.class
+com\cogmento\qa\pages\ContactsPage.class

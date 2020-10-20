@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="com.cogmento.qa">
+
+	<listeners>
+		<listener
+			class-name="com.cogmento.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="RegressionTest">
+		<classes>
+			<class name="com.cogmento.qa.testcases.LandingPageTest" />
+			<class name="com.cogmento.qa.testcases.LoginPageTest" />
+			<class name="com.cogmento.qa.testcases.HomePageTest" />
+			<class name="com.cogmento.qa.testcases.ContactsPageTest" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

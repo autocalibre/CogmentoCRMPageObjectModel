@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="443.693" tests="21" errors="0" skipped="8" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\admin\eclipse-workspace\CogmentoCRMFramework\src\executables\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\admin\eclipse-workspace\CogmentoCRMFramework\target\test-classes;C:\Users\admin\eclipse-workspace\CogmentoCRMFramework\target\classes;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\admin\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\admin\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\admin\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\admin\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\admin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\admin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\admin\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.1\log4j-api-2.1.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.1\log4j-core-2.1.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\admin\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\admin\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\admin\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\admin\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\admin\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\admin\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\admin\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-java\6.4.0\cucumber-java-6.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-core\6.4.0\cucumber-core-6.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-gherkin\6.4.0\cucumber-gherkin-6.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.4.0\cucumber-gherkin-messages-6.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\messages\12.4.0\messages-12.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-expressions\10.2.2\cucumber-expressions-10.2.2.jar;C:\Users\admin\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-plugin\6.4.0\cucumber-plugin-6.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\docstring\6.4.0\docstring-6.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\html-formatter\7.2.0\html-formatter-7.2.0.jar;C:\Users\admin\.m2\repository\io\cucumber\create-meta\1.1.0\create-meta-1.1.0.jar;C:\Users\admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-junit\6.4.0\cucumber-junit-6.4.0.jar;C:\Users\admin\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-testng\6.4.0\cucumber-testng-6.4.0.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\admin\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\admin\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\admin\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-scratchpad\3.17\poi-scratchpad-3.17.jar;C:\Users\admin\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\Users\admin\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\admin\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\admin\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\admin\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire2960522835881361830\surefirebooter6901784579573002607.jar C:\Users\admin\AppData\Local\Temp\surefire2960522835881361830 2020-10-14T22-24-25_673-jvmRun1 surefire1291980308548545589tmp surefire_02598951882538539484tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\admin\eclipse-workspace\CogmentoCRMFramework\target\test-classes;C:\Users\admin\eclipse-workspace\CogmentoCRMFramework\target\classes;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\admin\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\admin\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\admin\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\admin\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\admin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\admin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\admin\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.1\log4j-api-2.1.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.1\log4j-core-2.1.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\admin\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\admin\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\admin\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\admin\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\admin\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\admin\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\admin\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-java\6.4.0\cucumber-java-6.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-core\6.4.0\cucumber-core-6.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-gherkin\6.4.0\cucumber-gherkin-6.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.4.0\cucumber-gherkin-messages-6.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\messages\12.4.0\messages-12.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-expressions\10.2.2\cucumber-expressions-10.2.2.jar;C:\Users\admin\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-plugin\6.4.0\cucumber-plugin-6.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\docstring\6.4.0\docstring-6.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\html-formatter\7.2.0\html-formatter-7.2.0.jar;C:\Users\admin\.m2\repository\io\cucumber\create-meta\1.1.0\create-meta-1.1.0.jar;C:\Users\admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-junit\6.4.0\cucumber-junit-6.4.0.jar;C:\Users\admin\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-testng\6.4.0\cucumber-testng-6.4.0.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\admin\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\admin\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\admin\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-scratchpad\3.17\poi-scratchpad-3.17.jar;C:\Users\admin\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\Users\admin\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\admin\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\admin\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\admin\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="basedir" value="C:\Users\admin\eclipse-workspace\CogmentoCRMFramework"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire2960522835881361830\surefirebooter6901784579573002607.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="C:\Users\admin\eclipse-workspace\CogmentoCRMFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Maven\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_181/bin;C:\Program Files\Java\jdk1.8.0_181/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk1.8.0_181\bin\;C:\Maven\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="verifyTitleTest" classname="com.cogmento.qa.testcases.LandingPageTest" time="0.016">
+    <system-out><![CDATA[Before navigating to: 'https://cogmento.co.in/'
+Navigated to:'https://cogmento.co.in/'
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 43154
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602694478.425][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Oct 14, 2020 10:24:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySloganTextTest" classname="com.cogmento.qa.testcases.LandingPageTest" time="1.52">
+    <system-out><![CDATA[Before navigating to: 'https://cogmento.co.in/'
+Navigated to:'https://cogmento.co.in/'
+Trying to find Element By : By.xpath: //header[1]//div[1]//nav[1]//div[2]//div[2]//div[@class='rd-navbar-brand']//a[1]//span[contains(text(),'business')]
+Found Element By : By.xpath: //header[1]//div[1]//nav[1]//div[2]//div[2]//div[@class='rd-navbar-brand']//a[1]//span[contains(text(),'business')]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 45485
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602694504.088][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Oct 14, 2020 10:25:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="signUpBtnTest" classname="com.cogmento.qa.testcases.LandingPageTest" time="10.301">
+    <system-out><![CDATA[Before navigating to: 'https://cogmento.co.in/'
+Navigated to:'https://cogmento.co.in/'
+Trying to find Element By : By.xpath: //main[1]//section[1]//a[contains(@class,'btn-sm')]
+Found Element By : By.xpath: //main[1]//section[1]//a[contains(@class,'btn-sm')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (e26d44c8fe20a7e8f7f4db9ceaa0def8)] -> xpath: //main[1]//section[1]//a[contains(@class,'btn-sm')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (e26d44c8fe20a7e8f7f4db9ceaa0def8)] -> xpath: //main[1]//section[1]//a[contains(@class,'btn-sm')]]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 44398
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602694518.435][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Oct 14, 2020 10:25:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginBtnTest" classname="com.cogmento.qa.testcases.LandingPageTest" time="31.264">
+    <failure message="timeout: Timed out receiving message from renderer: 30.000&#10;  (Session info: chrome=86.0.4240.75)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.0.186&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: a9a305cac6739f582239918f467f8b09" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=86.0.4240.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.186', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a9a305cac6739f582239918f467f8b09
+	at com.cogmento.qa.testcases.LandingPageTest.loginBtnTest(LandingPageTest.java:65)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://cogmento.co.in/'
+Navigated to:'https://cogmento.co.in/'
+Trying to find Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Found Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (a9a305cac6739f582239918f467f8b09)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=86.0.4240.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.186', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a9a305cac6739f582239918f467f8b09
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 23152
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602694539.406][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Oct 14, 2020 10:25:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1602694577.204][SEVERE]: Timed out receiving message from renderer: 30.000
+[1602694577.210][SEVERE]: Timed out receiving message from renderer: 30.000
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="com.cogmento.qa.testcases.LoginPageTest" time="68.528">
+    <failure message="timeout: Timed out receiving message from renderer: 28.876&#10;  (Session info: chrome=86.0.4240.75)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.0.186&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 87070557a6c920ee15c154f1346b688a" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 28.876
+  (Session info: chrome=86.0.4240.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.186', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 87070557a6c920ee15c154f1346b688a
+	at com.cogmento.qa.testcases.LoginPageTest.setup(LoginPageTest.java:33)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://cogmento.co.in/'
+Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.876
+  (Session info: chrome=86.0.4240.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.186', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 87070557a6c920ee15c154f1346b688a
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 41960
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602694582.261][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Oct 14, 2020 10:26:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1602694615.085][SEVERE]: Timed out receiving message from renderer: 28.876
+[1602694615.097][SEVERE]: Timed out receiving message from renderer: 28.876
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="com.cogmento.qa.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.cogmento.qa.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginTest" classname="com.cogmento.qa.testcases.LoginPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 28.876&#10;  (Session info: chrome=86.0.4240.75)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.0.186&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 87070557a6c920ee15c154f1346b688a"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cogmento.qa.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cogmento.qa.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.cogmento.qa.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="forgotPasswordLinkTest" classname="com.cogmento.qa.testcases.LoginPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 28.876&#10;  (Session info: chrome=86.0.4240.75)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.0.186&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 87070557a6c920ee15c154f1346b688a"/>
+  </testcase>
+  <testcase name="signupLinkTest" classname="com.cogmento.qa.testcases.LoginPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 28.876&#10;  (Session info: chrome=86.0.4240.75)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.0.186&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 87070557a6c920ee15c154f1346b688a"/>
+  </testcase>
+  <testcase name="contactsPageLinkTest" classname="com.cogmento.qa.testcases.HomePageTest" time="3.697">
+    <system-out><![CDATA[Before navigating to: 'https://cogmento.co.in/'
+Navigated to:'https://cogmento.co.in/'
+Trying to find Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Found Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (03da197a3e9cc6dfd015fe8e7de953ff)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (03da197a3e9cc6dfd015fe8e7de953ff)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(@class,'submit')]
+Found Element By : By.xpath: //div[contains(@class,'submit')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (03da197a3e9cc6dfd015fe8e7de953ff)] -> xpath: //div[contains(@class,'submit')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (03da197a3e9cc6dfd015fe8e7de953ff)] -> xpath: //div[contains(@class,'submit')]]
+Trying to find Element By : By.xpath: //a[contains(@href,'contacts')]
+Found Element By : By.xpath: //a[contains(@href,'contacts')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (03da197a3e9cc6dfd015fe8e7de953ff)] -> xpath: //a[contains(@href,'contacts')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (03da197a3e9cc6dfd015fe8e7de953ff)] -> xpath: //a[contains(@href,'contacts')]]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 27099
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602694620.806][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Oct 14, 2020 10:27:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHomePageTitleTest" classname="com.cogmento.qa.testcases.HomePageTest" time="0.009">
+    <system-out><![CDATA[Before navigating to: 'https://cogmento.co.in/'
+Navigated to:'https://cogmento.co.in/'
+Trying to find Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Found Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (397fde322fd90b8391a723e6e6b9d904)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (397fde322fd90b8391a723e6e6b9d904)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(@class,'submit')]
+Found Element By : By.xpath: //div[contains(@class,'submit')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (397fde322fd90b8391a723e6e6b9d904)] -> xpath: //div[contains(@class,'submit')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (397fde322fd90b8391a723e6e6b9d904)] -> xpath: //div[contains(@class,'submit')]]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 39970
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602694704.464][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Oct 14, 2020 10:28:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUserNameLabelTest" classname="com.cogmento.qa.testcases.HomePageTest" time="1.505">
+    <system-out><![CDATA[Before navigating to: 'https://cogmento.co.in/'
+Navigated to:'https://cogmento.co.in/'
+Trying to find Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Found Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (569a7ecedf4c3304d4c743382c4817d6)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (569a7ecedf4c3304d4c743382c4817d6)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(@class,'submit')]
+Found Element By : By.xpath: //div[contains(@class,'submit')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (569a7ecedf4c3304d4c743382c4817d6)] -> xpath: //div[contains(@class,'submit')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (569a7ecedf4c3304d4c743382c4817d6)] -> xpath: //div[contains(@class,'submit')]]
+Trying to find Element By : By.cssSelector: span.user-display
+Found Element By : By.cssSelector: span.user-display
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 11492
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602694741.612][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Oct 14, 2020 10:29:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactsLabelTest" classname="com.cogmento.qa.testcases.ContactsPageTest" time="0.199">
+    <system-out><![CDATA[Before navigating to: 'https://cogmento.co.in/'
+Navigated to:'https://cogmento.co.in/'
+Trying to find Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Found Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (44fd150653efd8ad9003655fca0cea14)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (44fd150653efd8ad9003655fca0cea14)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(@class,'submit')]
+Found Element By : By.xpath: //div[contains(@class,'submit')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (44fd150653efd8ad9003655fca0cea14)] -> xpath: //div[contains(@class,'submit')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (44fd150653efd8ad9003655fca0cea14)] -> xpath: //div[contains(@class,'submit')]]
+Trying to find Element By : By.xpath: //a[contains(@href,'contacts')]
+Found Element By : By.xpath: //a[contains(@href,'contacts')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (44fd150653efd8ad9003655fca0cea14)] -> xpath: //a[contains(@href,'contacts')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (44fd150653efd8ad9003655fca0cea14)] -> xpath: //a[contains(@href,'contacts')]]
+Trying to find Element By : By.xpath: //div[text()='Contacts']
+Found Element By : By.xpath: //div[text()='Contacts']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 14922
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602694775.020][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Oct 14, 2020 10:29:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="clickSelectAllCBTest" classname="com.cogmento.qa.testcases.ContactsPageTest" time="1.058">
+    <system-out><![CDATA[Before navigating to: 'https://cogmento.co.in/'
+Navigated to:'https://cogmento.co.in/'
+Trying to find Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Found Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2028a8304ff8b19770dde9b478428175)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2028a8304ff8b19770dde9b478428175)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(@class,'submit')]
+Found Element By : By.xpath: //div[contains(@class,'submit')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2028a8304ff8b19770dde9b478428175)] -> xpath: //div[contains(@class,'submit')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2028a8304ff8b19770dde9b478428175)] -> xpath: //div[contains(@class,'submit')]]
+Trying to find Element By : By.xpath: //a[contains(@href,'contacts')]
+Found Element By : By.xpath: //a[contains(@href,'contacts')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2028a8304ff8b19770dde9b478428175)] -> xpath: //a[contains(@href,'contacts')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2028a8304ff8b19770dde9b478428175)] -> xpath: //a[contains(@href,'contacts')]]
+Trying to find Element By : By.cssSelector: input[type='checkbox']
+Found Element By : By.cssSelector: input[type='checkbox']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2028a8304ff8b19770dde9b478428175)] -> css selector: input[type='checkbox']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2028a8304ff8b19770dde9b478428175)] -> css selector: input[type='checkbox']]
+Trying to find Element By : By.cssSelector: input[type='checkbox']
+Found Element By : By.cssSelector: input[type='checkbox']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 38932
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602694793.509][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Oct 14, 2020 10:29:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="createNewContactTest[Anthony, Stark, Stark Industries](1)" classname="com.cogmento.qa.testcases.ContactsPageTest" time="3.508">
+    <system-out><![CDATA[3----------3
+Anthony
+Stark
+Stark Industries
+Bruce
+Wayne
+Wayne Enterprises
+Bruce
+Banner
+Banner's Lab
+Before navigating to: 'https://cogmento.co.in/'
+Navigated to:'https://cogmento.co.in/'
+Trying to find Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Found Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (35e8beae23ad2b20008660d59945cc84)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (35e8beae23ad2b20008660d59945cc84)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(@class,'submit')]
+Found Element By : By.xpath: //div[contains(@class,'submit')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (35e8beae23ad2b20008660d59945cc84)] -> xpath: //div[contains(@class,'submit')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (35e8beae23ad2b20008660d59945cc84)] -> xpath: //div[contains(@class,'submit')]]
+Trying to find Element By : By.xpath: //a[contains(@href,'contacts')]
+Found Element By : By.xpath: //a[contains(@href,'contacts')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (35e8beae23ad2b20008660d59945cc84)] -> xpath: //a[contains(@href,'contacts')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (35e8beae23ad2b20008660d59945cc84)] -> xpath: //a[contains(@href,'contacts')]]
+Trying to find Element By : By.xpath: //a[contains(@href,'contacts/new')]
+Found Element By : By.xpath: //a[contains(@href,'contacts/new')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (35e8beae23ad2b20008660d59945cc84)] -> xpath: //a[contains(@href,'contacts/new')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (35e8beae23ad2b20008660d59945cc84)] -> xpath: //a[contains(@href,'contacts/new')]]
+Trying to find Element By : By.xpath: //input[@name='first_name']
+Found Element By : By.xpath: //input[@name='first_name']
+Trying to find Element By : By.xpath: //input[@name='last_name']
+Found Element By : By.xpath: //input[@name='last_name']
+Trying to find Element By : By.xpath: //div[@name='company']//input[@class='search']
+Found Element By : By.xpath: //div[@name='company']//input[@class='search']
+Trying to find Element By : By.xpath: //div[@name='company']//input[@class='search']
+Found Element By : By.xpath: //div[@name='company']//input[@class='search']
+Trying to find Element By : By.xpath: //div[@class='item']//button[@class='ui linkedin button']
+Found Element By : By.xpath: //div[@class='item']//button[@class='ui linkedin button']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (35e8beae23ad2b20008660d59945cc84)] -> xpath: //div[@class='item']//button[@class='ui linkedin button']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (35e8beae23ad2b20008660d59945cc84)] -> xpath: //div[@class='item']//button[@class='ui linkedin button']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 3394
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602694816.692][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Oct 14, 2020 10:30:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="createNewContactTest[Bruce, Wayne, Wayne Enterprises](2)" classname="com.cogmento.qa.testcases.ContactsPageTest" time="3.671">
+    <system-out><![CDATA[Before navigating to: 'https://cogmento.co.in/'
+Navigated to:'https://cogmento.co.in/'
+Trying to find Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Found Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c34b1e45dab823baca6c9e3b6f5ae2eb)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c34b1e45dab823baca6c9e3b6f5ae2eb)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(@class,'submit')]
+Found Element By : By.xpath: //div[contains(@class,'submit')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c34b1e45dab823baca6c9e3b6f5ae2eb)] -> xpath: //div[contains(@class,'submit')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c34b1e45dab823baca6c9e3b6f5ae2eb)] -> xpath: //div[contains(@class,'submit')]]
+Trying to find Element By : By.xpath: //a[contains(@href,'contacts')]
+Found Element By : By.xpath: //a[contains(@href,'contacts')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c34b1e45dab823baca6c9e3b6f5ae2eb)] -> xpath: //a[contains(@href,'contacts')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c34b1e45dab823baca6c9e3b6f5ae2eb)] -> xpath: //a[contains(@href,'contacts')]]
+Trying to find Element By : By.xpath: //a[contains(@href,'contacts/new')]
+Found Element By : By.xpath: //a[contains(@href,'contacts/new')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c34b1e45dab823baca6c9e3b6f5ae2eb)] -> xpath: //a[contains(@href,'contacts/new')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c34b1e45dab823baca6c9e3b6f5ae2eb)] -> xpath: //a[contains(@href,'contacts/new')]]
+Trying to find Element By : By.xpath: //input[@name='first_name']
+Found Element By : By.xpath: //input[@name='first_name']
+Trying to find Element By : By.xpath: //input[@name='last_name']
+Found Element By : By.xpath: //input[@name='last_name']
+Trying to find Element By : By.xpath: //div[@name='company']//input[@class='search']
+Found Element By : By.xpath: //div[@name='company']//input[@class='search']
+Trying to find Element By : By.xpath: //div[@name='company']//input[@class='search']
+Found Element By : By.xpath: //div[@name='company']//input[@class='search']
+Trying to find Element By : By.xpath: //div[@class='item']//button[@class='ui linkedin button']
+Found Element By : By.xpath: //div[@class='item']//button[@class='ui linkedin button']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c34b1e45dab823baca6c9e3b6f5ae2eb)] -> xpath: //div[@class='item']//button[@class='ui linkedin button']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c34b1e45dab823baca6c9e3b6f5ae2eb)] -> xpath: //div[@class='item']//button[@class='ui linkedin button']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 47749
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602694838.976][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Oct 14, 2020 10:30:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="createNewContactTest[Bruce, Banner, Banner&apos;s Lab](3)" classname="com.cogmento.qa.testcases.ContactsPageTest" time="30.649">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;first_name&apos;]&quot;}&#10;  (Session info: chrome=86.0.4240.75)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.0.186&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 6aeb679f95a1143dbb6491b5e02bd120&#10;*** Element info: {Using=xpath, value=//input[@name=&apos;first_name&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='first_name']"}
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.186', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6aeb679f95a1143dbb6491b5e02bd120
+*** Element info: {Using=xpath, value=//input[@name='first_name']}
+	at com.cogmento.qa.testcases.ContactsPageTest.createNewContactTest(ContactsPageTest.java:74)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://cogmento.co.in/'
+Navigated to:'https://cogmento.co.in/'
+Trying to find Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Found Element By : By.xpath: //a[contains(@class,'btn-xs-2')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (6aeb679f95a1143dbb6491b5e02bd120)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (6aeb679f95a1143dbb6491b5e02bd120)] -> xpath: //a[contains(@class,'btn-xs-2')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[contains(@class,'submit')]
+Found Element By : By.xpath: //div[contains(@class,'submit')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (6aeb679f95a1143dbb6491b5e02bd120)] -> xpath: //div[contains(@class,'submit')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (6aeb679f95a1143dbb6491b5e02bd120)] -> xpath: //div[contains(@class,'submit')]]
+Trying to find Element By : By.xpath: //a[contains(@href,'contacts')]
+Found Element By : By.xpath: //a[contains(@href,'contacts')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (6aeb679f95a1143dbb6491b5e02bd120)] -> xpath: //a[contains(@href,'contacts')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (6aeb679f95a1143dbb6491b5e02bd120)] -> xpath: //a[contains(@href,'contacts')]]
+Trying to find Element By : By.xpath: //a[contains(@href,'contacts/new')]
+Found Element By : By.xpath: //a[contains(@href,'contacts/new')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (6aeb679f95a1143dbb6491b5e02bd120)] -> xpath: //a[contains(@href,'contacts/new')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (6aeb679f95a1143dbb6491b5e02bd120)] -> xpath: //a[contains(@href,'contacts/new')]]
+Trying to find Element By : By.xpath: //input[@name='first_name']
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='first_name']"}
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.186', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6aeb679f95a1143dbb6491b5e02bd120
+*** Element info: {Using=xpath, value=//input[@name='first_name']}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 32339
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602694862.519][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Oct 14, 2020 10:31:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [com.cogmento.qa]">
+  <listeners>
+    <listener class-name="com.cogmento.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="RegressionTest(failed)">
+    <classes>
+      <class name="com.cogmento.qa.testcases.ContactsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="createNewContactTest" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- com.cogmento.qa.testcases.ContactsPageTest -->
+      <class name="com.cogmento.qa.testcases.LandingPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="loginBtnTest"/>
+        </methods>
+      </class> <!-- com.cogmento.qa.testcases.LandingPageTest -->
+      <class name="com.cogmento.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="signupLinkTest"/>
+          <include name="setup"/>
+          <include name="forgotPasswordLinkTest"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.cogmento.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [com.cogmento.qa] -->

@@ -1,0 +1,5 @@
+22:31:19.112 [main] DEBUG com.cogmento.qa.base.TestBase - Successfully clicked on contacts link and navigated to contacts page
+22:31:19.184 [main] INFO  com.cogmento.qa.base.TestBase - **************Starting createNewContactTest TestCase**************
+22:31:19.408 [main] DEBUG com.cogmento.qa.base.TestBase - Successfully clicked new contact button 
+22:31:49.848 [main] INFO  com.cogmento.qa.base.TestBase - *****************END OF CONTACTSPAGE TESTCASES*****************
+22:31:50.995 [main] INFO  com.cogmento.qa.base.TestBase - Browser is closed
